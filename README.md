@@ -19,4 +19,11 @@ powershell Import-Module ActiveDirectory  New-ADUser -Name "Jane Smith" -GivenNa
 What I Learned
 - Identity lifecycle management (provisioning/deprovisioning)
 - Role-based access control (RBAC)
-- IAM automation using PowerShell
+- IAM automation using PowerShell## Project Scenario
+
+This lab simulates a real world IAM scenario where new employees are onboarded into an organization. User accounts are created, assigned to role based security groups, and managed using both GUI and PowerShell automation.
+Skills Demonstrated
+- User provisioning and deprovisioning
+- Role-Based Access Control (RBAC)
+- Active Directory administration
+- PowerShell automation for identity management
